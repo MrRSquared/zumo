@@ -1,8 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P15, 1)
     pins.digitalWritePin(DigitalPin.P16, 1)
-    pins.analogWritePin(AnalogPin.P14, 100)
-    pins.analogWritePin(AnalogPin.P15, 100)
+    pins.analogWritePin(AnalogPin.P13, 100)
+    pins.analogWritePin(AnalogPin.P14, 190)
 })
 function Reverse () {
     pins.digitalWritePin(DigitalPin.P13, 1)
